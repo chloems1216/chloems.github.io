@@ -96,7 +96,6 @@ nav p a:hover,
 figcaption a:hover {
     color:#495F83;
     text-decoration:none;
-    position:fixed;
 }
 
 nav ul {
@@ -123,7 +122,6 @@ nav :nth-child(2) {
 nav a:hover {
   color:#FFF;
     background-color:#333;
-    position:fixed;
 }
 
 nav a:active {
