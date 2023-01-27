@@ -76,6 +76,7 @@ nav {
 nav img {
     width:100%;
     border-bottom:.0625rem solid #333;
+    position:fixed;
 }
 
 nav p {
@@ -85,17 +86,20 @@ nav p {
     background-color:#242F40;
     color:#B1BED3;
     border-top:.0625rem solid #333;
+    position:fixed;
 }
 
 nav p a {
     
     color:#B1BED3;
+    position:fixed;
 }
 
 nav p a:hover,
 figcaption a:hover {
     color:#495F83;
     text-decoration:none;
+    position:fixed;
 }
 
 nav ul {
@@ -103,6 +107,7 @@ nav ul {
     list-style-type:none;
     margin:0;
     padding:0;
+    position:fixed;
 }
 
 nav ul a {
@@ -113,21 +118,25 @@ nav ul a {
     text-decoration: none;
     color: #333;
     font-family:'Roboto', sans-serif;
+    position:fixed;
 }
 
 nav :nth-child(2) {
     margin-top:0;
+    position:fixed;
 }
 
 nav a:hover {
   color:#FFF;
     background-color:#333;
+    position:fixed;
 }
 
 nav a:active {
     color:#FFF;
     font-style: italic;
     background-color:#333;
+    position:fixed;
 }
 
 /* || main layout */
