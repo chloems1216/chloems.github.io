@@ -115,18 +115,47 @@ h5 {
 
 /* Section & Paragraph */
 
-section {}
+section {
+    margin-top: 0.5rem;
+}
 
-p {}
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
 
 /* Image & Figure */
 
-img {}
+img {
+    width: 100%;
+    max-width: 50rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-figure {}
+figure {
+    margin-bottom: 2rem;
+}
 
-figcaption {}
+figcaption {
+    padding-top: 0.5rem;
+    text-align: right;
+}
 
 /* Footer */
 
-footer {}
+footer {
+    padding: 1rem;
+    border-top: solid, #333;
+    border-width: 2rem;
+}
