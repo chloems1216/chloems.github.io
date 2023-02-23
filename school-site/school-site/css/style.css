@@ -136,35 +136,71 @@ figcaption{
 
 /* Link Styling */
 
-a{}
+a{
+    text-decoration: none;
+    outline: none;
+}
 
 a:link {color: #33658A;}
 a:visited {color:#33658A}
 
-a:focus,
-a:hover {}
+a:focus {text-decoration: none;}
+a:hover {text-decoration: none;}
 
 /* List Styling */
 
-ul{}
+ul{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+    list-style-type: square;
+}
 
-ol{}
+ol{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style-type: lower-alpha;
+}
 
-.long-list a:hover{}
+.long-list a:hover{text-transform: uppercase;}
 
 /* Navigation Menu */
-nav{}
+nav{
+    padding-left: 0rem;
+    margin-top: 0.25rem;
+}
 
-nav a{}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 7.75rem;
+    border: solid 0.063rem #33658a;
+}
 
-nav a:focus,
-nav a:hover{}
+nav a:focus{color:#FFF;
+            background-color:#33658A
+        }
+nav a:hover{ color:#FFF;
+        background-color: #33658a
+    }
 
-nav a:active{}
+nav a:active{
+    color: #FFF;
+    background-color: #000;
+}
 
 /* Footer Styles */
 
-footer{}
+footer{
+    text-align: center;
+}
 
 
 
