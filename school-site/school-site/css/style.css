@@ -102,13 +102,16 @@ html{
 
 h1{
     font-family: Josefinslab, serif;
-    font-size: 3.75rem;
+    font-size: .75rem;
     margin: 1.125rem;
     letter-spacing: 0.125rem;
     text-align: center;
 }
 
-h2{}
+h2{
+    font-family: Josefinslab, serif;
+    font-size: 1.5rem;
+}
 
 h2 + p{}
 
