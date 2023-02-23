@@ -129,14 +129,17 @@ li{
     word-spacing: 0.125rem;
 }
 
-figcaption{}
+figcaption{
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
 
 /* Link Styling */
 
 a{}
 
 a:link,
-a:visited {}
+a:visited {color:#33658A}
 
 a:focus,
 a:hover {}
