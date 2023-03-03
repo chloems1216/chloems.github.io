@@ -48,31 +48,232 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-
-* {
-    box-sizing: border-box;
+@font-face {
+    font-family: loto-regular;
+    src: url(../fonts/sans-serif/lato-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
-html {
-    font-size:16px;
+@font-face {
+    font-family: montserrat-regular;
+    src: url(../fonts/sans-serif/montserrat-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
-body {
-    margin: 1.5rem auto;
-    width:90%;
-    min-width:56.25rem;
+@font-face {
+    font-family: opensans-regular;
+    src: url(../fonts/sans-serif/opensans-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/sans-serif/roboto-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: josefinslab-regular;
+    src: url(../fonts/serif/josefinslab-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: robotoslab-regular;
+    src: url(../fonts/serif/robotoslab-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: rozhaone-regular;
+    src: url(../fonts/serif/rozhaone-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: ultra-regular;
+    src: url(../fonts/serif/ultra-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
-h1{
-    font-size: 3.75rem;
+header {
+    margin: 0 auto;
+    padding: 0.5rem 5%;
     text-align: center;
+    display:block
 }
 
-.highlight{
-    scrollbar-highlight-color: chocolate;
-    
+h1 {
+    font-family: Roboto, serif;
+    font-size: 3.75rem;
+    margin: 2rem 0;
+    letter-spacing: .125rem;
+    text-shadow: 0.125rem 0.125rem 0.125rem #333;
+    transform: rotate(-4deg);
 }
 
-section, aside, nav, footer {
-    padding: .5rem;
-  }
+.highlight {
+    font-family: Ultra;
+    font-weight: normal;
+    background-color: darkred;
+    color: #EED;
+    padding: 1rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0.187rem 0.187rem 0.187rem #333;
+}
+
+nav {
+    margin: 4rem 0 4rem 0;
+    padding: 0 5%;
+    border-top: 0.0625rem solid #333;
+    border-bottom: 0.0625rem solid #333;
+    display:block
+}
+
+main {
+    margin: 0 auto;
+    padding-bottom: 0.25rem;
+    width: 90%;
+    display: block;
+}
+
+.main-section {
+    display: flex;
+}
+
+footer {
+    margin: 6rem auto 0.5rem auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1%;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 1.75rem;
+    padding: 2rem 6rem 2rem 0;
+    color: #27476E;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    width: 75%;
+    display: block;
+}
+
+.article-image {
+    float: left;
+    margin: 0 1rem 0 0;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h3 {
+    font-size: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    }
+
+    .subsection {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+        grid-column-gap: 1%;
+    }
+
+    .subsection img {
+        padding-bottom: 1%;
+        min-width: 5rem;
+    }
+
+    figure {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        max-width: 25rem;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+
+    figcaption {
+        display: block;
+    }
+
+    button {
+        margin-top: 1rem;
+        padding: 1rem;
+        font-family: Ultra;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        background-color: #27476E;
+        box-shadow: 0.187rem 0.187rem 0.187rem #333;
+        border: none;
+        border-radius: 0.625rem;
+        background-color: #27476E;
+    }
+
+    button a {
+        color: #EED;
+        text-decoration: none;
+    }
+
+    article {
+        width: 75%;
+        display: block;
+    }
+
+    aside {
+        clear: left;
+        margin-left: 3%;
+        padding-left: 3%;
+        width: 19%;
+        border-left: 0.0625rem solid #333;
+        display: block;
+    }
+
+    aside :nth-child(1) {
+        margin-top: 0;
+    }
+
+    footer a {
+        font-family: ubuntu, serif;
+        color: #6F7D77;
+    }
