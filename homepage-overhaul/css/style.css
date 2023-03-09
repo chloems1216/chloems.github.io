@@ -26,6 +26,19 @@ header {
     display: block;
   
 }
+
+.highlight {
+    font-family: Ultra;
+    font-weight: normal;
+    background-color: #BDB5D5;
+    color: #301934;
+    padding: 1rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0.187rem 0.187rem 0.187rem #333;
+}
  
 h1 {
     font-size: 6rem;
@@ -71,14 +84,13 @@ nav {
       flex-direction: column;
       width:14rem;
       border:.0625rem solid #333;
-      background-color:#8FB0D0;
+      background-color:#E6E6FA;
       position:fixed;
 }
 
-nav img {
-    width:100%;
-    border-bottom:.0625rem solid #333;
-}
+
+
+
 
 nav p {
     margin:0;
