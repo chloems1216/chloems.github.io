@@ -22,6 +22,8 @@ header {
     border-bottom: .0625rem solid #333;
     margin-bottom:4rem;
     padding-bottom:2rem;
+    text-align: center;
+    display: block;
   
 }
  
@@ -29,7 +31,7 @@ h1 {
     font-size: 6rem;
     font-weight:100;
     color: #333;
-    font-family: Lato, sans-serif;
+    font-family: montserrat-regular, sans-serif;
     text-shadow:2px 2px 3px #333;      
     margin:0;
 }
@@ -235,4 +237,55 @@ footer a:hover {
 .return {
     font-size:.75rem;
     float:left;
+}
+
+@font-face {
+    font-family: loto-regular;
+    src: url(../fonts/sans-serif/lato-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: montserrat-regular;
+    src: url(../fonts/sans-serif/montserrat-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: opensans-regular;
+    src: url(../fonts/sans-serif/opensans-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/sans-serif/roboto-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: josefinslab-regular;
+    src: url(../fonts/serif/josefinslab-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: robotoslab-regular;
+    src: url(../fonts/serif/robotoslab-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: rozhaone-regular;
+    src: url(../fonts/serif/rozhaone-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: ultra-regular;
+    src: url(../fonts/serif/ultra-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
