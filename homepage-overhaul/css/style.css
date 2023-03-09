@@ -27,11 +27,14 @@ header {
   
 }
 
+
+
+
 .highlight {
     font-family: Ultra;
     font-weight: normal;
-    background-color: #BDB5D5;
-    color: #301934;
+    background-color: #E6E6FA;
+    color: #333;
     padding: 1rem;
     font-size: 4rem;
     text-transform: uppercase;
@@ -108,7 +111,7 @@ nav p a {
 
 nav p a:hover,
 figcaption a:hover {
-    color:#495F83;
+    color:#764b8f;
     text-decoration:none;
 }
 
@@ -135,7 +138,7 @@ nav :nth-child(2) {
 
 nav a:hover {
   color:#FFF;
-    background-color:#333;
+    background-color:#704d85;
 }
 
 nav a:active {
