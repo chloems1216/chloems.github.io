@@ -24,16 +24,17 @@ header {
     padding-bottom:2rem;
     text-align: center;
     display: block;
+    
   
 }
 
-
+body { background-image: linear-gradient(#eaeaf6, #c6c6e7); }
 
 
 .highlight {
-    font-family: Ultra;
+    font-family: didot;
     font-weight: normal;
-    background-color: #E6E6FA;
+    background-color: #dedefa;
     color: #333;
     padding: 1rem;
     font-size: 4rem;
@@ -47,7 +48,7 @@ h1 {
     font-size: 6rem;
     font-weight:100;
     color: #333;
-    font-family: montserrat-regular, sans-serif;
+    font-family: 'montserrat-regular', sans-serif;
     text-shadow:2px 2px 3px #333;      
     margin:0;
 }
@@ -61,7 +62,7 @@ h2 {
     font-size:2rem;
     margin-top:0;
     font-weight:100;
-    font-family:'Lato', sans-serif;
+    font-family: cursive, sans-serif;
     
 }
 
@@ -129,7 +130,7 @@ nav ul a {
     padding:.75rem 1.25rem;
     text-decoration: none;
     color: #333;
-    font-family:'Roboto', sans-serif;
+    font-family:cursive, sans-serif;
 }
 
 nav :nth-child(2) {
