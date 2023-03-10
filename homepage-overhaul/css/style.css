@@ -112,7 +112,7 @@ nav p a {
 
 nav p a:hover,
 figcaption a:hover {
-    color:#764b8f;
+    color:#c6c6e7;
     text-decoration:none;
 }
 
@@ -139,7 +139,7 @@ nav :nth-child(2) {
 
 nav a:hover {
   color:#FFF;
-    background-color:#704d85;
+    background-color:#c6c6e7;
 }
 
 nav a:active {
